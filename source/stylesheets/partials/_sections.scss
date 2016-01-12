@@ -1,0 +1,47 @@
+//sections
+section{
+  padding:$baseline*2 0;
+  // &:first-of-type{
+  // 	margin-top:-100px;
+  // }
+  &.inverse-section{
+  	@extend %white_text;
+    background-color:$gray-color;
+  }
+  &.dan-hero{
+  	padding:$baseline*8 0;
+  	background-color: $primary-color;
+  	background-image: url(../images/dan.png);
+  	background-repeat:no-repeat;
+  	background-position-x:center;
+  	background-position-y:top;
+  	background-size:cover;
+	  @include breakpoint(md) {
+	  	background-position-x:-270px;
+  	}
+  	@include breakpoint(sm) {
+  		background-image: url(../images/dan-dark.png);
+  		h4{
+	  		color:white;
+  		}
+  	}
+  }
+  &.narratives-hero{
+    background-color: $light-gray-color;
+  }
+  &.bio{
+    background-color: $medium-gray-color;
+  }
+  &.surf{
+    min-height: 500px;
+    background: transparent;
+  }
+  &.ski{
+    min-height: 500px;
+    background: transparent;
+  }
+  &.contact{
+     background-color: $dark-gray-color;
+  }
+}
+

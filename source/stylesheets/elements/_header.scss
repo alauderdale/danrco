@@ -1,0 +1,17 @@
+.main-nav{
+	background:transparent;
+	margin-bottom:0;
+	border-radius:0;
+	border:none;
+	margin-bottom:-100px;
+	ul.navbar-nav{
+		li{
+			float: left!important;
+			a{
+				color:white;
+				padding:30px 25px;
+				font-size:1.3rem;
+			}
+		}
+	}
+}
