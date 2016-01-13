@@ -1,4 +1,17 @@
-img.notebook{
-	width:200px;
+.notebook-container{
+	@include transition-duration(.3s);
+	&:hover{
+		margin-top:-5px;
+	}
+	img.notebook{
+		width:200px;
+	  @include breakpoint(lg) {
+	      width:175px;
+	  }
+	  @include breakpoint(md) {
+	      width:130px;
+	  }
+	}
 }
+
 

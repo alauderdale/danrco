@@ -10,8 +10,6 @@
 		.row
 			.col-lg-12
 				.padded
-					%ul.list-inline.books
-						-5.times do
-							%li.text-center
-								.notebook-container
-									%img.notebook.margin-auto{:src=>"images/book1.png"}
+					-5.times do
+						.notebook-container.pull-left
+							%img.notebook.margin-auto{:src=>"images/book1.png"}
