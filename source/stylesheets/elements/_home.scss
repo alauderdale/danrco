@@ -2,6 +2,9 @@
 	@include transition-duration(.3s);
 	&:hover{
 		margin-top:-5px;
+		@include breakpoint(sm) {
+			margin-top:0;
+		}
 	}
 	img.notebook{
 		width:225px;
