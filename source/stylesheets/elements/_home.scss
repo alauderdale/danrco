@@ -4,12 +4,12 @@
 		margin-top:-5px;
 	}
 	img.notebook{
-		width:200px;
+		width:225px;
 	  @include breakpoint(lg) {
-	      width:175px;
+	      width:185px;
 	  }
 	  @include breakpoint(md) {
-	      width:130px;
+	      width:140px;
 	  }
 	}
 }
